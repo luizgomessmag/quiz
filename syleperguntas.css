@@ -1,0 +1,76 @@
+
+body{
+    background-color:#054f77;;
+    align-items: center;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+h1{
+    color: aliceblue;
+    
+}
+
+
+img{
+    width: 50px;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.blocoperguntas{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 0 0 10px black;
+    padding: 12px;
+    width: 60%;
+    height: 80%;
+    background-color: #145e87;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+#alt1{
+    width: 230px;
+    height: 30px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 12px;
+}
+
+#enviar1{
+
+    border: 2px solid black;
+    border-radius: 12px;
+    
+    
+}
+
+.botaoenviar{
+
+    padding: 20px;
+
+}
+
