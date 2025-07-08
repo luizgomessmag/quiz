@@ -10,16 +10,20 @@
     
 
     <main>
-        <section class="blocoperguntas">
+        <form id="quizForm" class="blocoperguntas">
             <h1>pergunta</h1>
             <p>Qual o atalho utilizado para copiar e colar no teclado</p>
-            <img src="/Web/QuizInformática/Quiz Lois/linux.png" alt="linux barrigudo">
+            <img src="/linux.png" alt="linux barrigudo">
             <div class="buttons">
-                <button id="alt1">Ctrl+Z - Ctrl+X</button>
-                <button id="alt1">Ctrl+C - Ctrl+V</button>
-                <button id="alt1">Alt+C - Alt+V</button>
-                <button id="alt1">Ctrl+A - Ctrl+T</button>
-                
+                <input type="radio" name="alternativa" id="alt1" value="falso" required>
+        <label for="alt1">Ctrl+Z - Ctrl+X</label>
+                <input type="radio" name="alternativa" id="alt2" value="correto" required>
+        <label for="alt2">Ctrl+C - Ctrl+V</label>
+                <input type="radio" name="alternativa" id="alt3" value="falso" required>
+        <label for="alt3">Alt+C - Alt+V</label>
+                <input type="radio" name="alternativa" id="alt4" value="falso" required>
+        <label for="alt4">Ctrl+A - Ctrl+T</label>
+
                 
             </div>
 
@@ -31,11 +35,11 @@
 
             
 
-        </section>
+        </form>
     </main>
 
     </footer>
-    
+    <script src="index.js"></script>
 </body>
 </html>
 

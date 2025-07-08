@@ -10,17 +10,20 @@
     
 
     <main>
-        <section class="blocoperguntas">
+        <form id="quizForm" class="blocoperguntas">
             <h1>pergunta</h1>
             <p>O que é computador?</p>
-            <img src="/Web/QuizInformática/Quiz Lois/linux.png" alt="linux barrigudo">
+            <img src="/linux.png" alt="linux barrigudo">
             <div class="buttons">
-                <button id="alt1">É uma máquina utilizada para tirar fotos </button>
-                <button id="alt1">É um programa utilizado para fazer pesquisas acadêmicas</button>
-                <button id="alt1">É um dispositivo feito somente para entretenimento com filmes </button>
-                <button id="alt1">É uma máquina que é destinada ao processamento de dados </button>
-                
-                
+                <input type="radio" name="alternativa" id="alt1" value="falso" required>
+        <label for="alt1">É uma máquina utilizada para tirar fotos</label>
+                <input type="radio" name="alternativa" id="alt2" value="falso" required>
+        <label for="alt2"> um programa utilizado para fazer pesquisas acadêmicas</label>
+                <input type="radio" name="alternativa" id="alt3" value="falso" required>
+        <label for="alt3">É um dispositivo feito somente para entretenimento com filmes</label>
+                <input type="radio" name="alternativa" id="alt4" value="correto" required>
+        <label for="alt4">É uma máquina que é destinada ao processamento de dados</label>
+    
             </div>
 
             <div class="botaoenviar">
@@ -31,11 +34,11 @@
 
             
 
-        </section>
+        </form>
     </main>
 
     </footer>
-    
+    <script src="index.js"></script>
 </body>
 </html>
 

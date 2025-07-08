@@ -10,16 +10,19 @@
     
 
     <main>
-        <section class="blocoperguntas">
+        <form id="quizForm" class="blocoperguntas">
             <h1>pergunta</h1>
             <p>O que é Software?</p>
-            <img src="/Web/QuizInformática/Quiz Lois/linux.png" alt="linux barrigudo">
+            <img src="/linux.png" alt="linux barrigudo">
             <div class="buttons">
-                <button id="alt1">É o conjunto de componentes lógicos do computador, que controlam o funcionamento lógico da máquina</button>
-                <button id="alt1">São os periféricos do computador</button>
-                <button id="alt1">É uma peça utilizada para montar o computador </button>
-                <button id="alt1">É um tipo de vírus do computador</button>
-                
+                <input type="radio" name="alternativa" id="alt1" value="correto" required>
+        <label for="alt1">É o conjunto de componentes lógicos do computador, que controlam o funcionamento lógico da máquina</label>
+                <input type="radio" name="alternativa" id="alt2" value="falso" required>
+        <label for="alt2">São os periféricos do computador</label>
+                <input type="radio" name="alternativa" id="alt3" value="falso" required>
+        <label for="alt3">É uma peça utilizada para montar o computador</label>
+                <input type="radio" name="alternativa" id="alt4" value="falso" required>
+        <label for="alt4">É um tipo de vírus do computador</label>
                 
             </div>
 
@@ -31,11 +34,11 @@
 
             
 
-        </section>
+        </form>
     </main>
 
     </footer>
-    
+    <script src="index.js"></script>
 </body>
 </html>
 

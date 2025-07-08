@@ -10,17 +10,20 @@
     
 
     <main>
-        <section class="blocoperguntas">
+        <form id="quizForm" class="blocoperguntas">
             <h1>pergunta</h1>
             <p>O que é Hardware?</p>
-            <img src="/Web/QuizInformática/Quiz Lois/linux.png" alt="linux barrigudo">
+            <img src="/linux.png" alt="linux barrigudo">
             <div class="buttons">
-                <button id="alt1">É a parte do computador onde se faz as pesquisas</button>
-                <button id="alt1">É o conjunto de componentes lógicos do computador, que controlam o funcionamento lógico da máquina</button>
-                <button id="alt1">É a parte física do computador, com seus periféricos e aparatos conectados a ele</button>
-                <button id="alt1">É um aplicativo para acelerar o funcionamento do computador</button>
-                
-                
+                 <input type="radio" name="alternativa" id="alt1" value="falso" required>
+        <label for="alt1">É a parte do computador onde se faz as pesquisas</label>
+                 <input type="radio" name="alternativa" id="alt2" value="falso" required>
+        <label for="alt2">É o conjunto de componentes lógicos do computador, que controlam o funcionamento lógico da máquina</label>
+                 <input type="radio" name="alternativa" id="alt3" value="correto" required>
+        <label for="alt3">É a parte física do computador, com seus periféricos e aparatos conectados a ele</label>
+                 <input type="radio" name="alternativa" id="alt4" value="false" required>
+        <label for="alt4">É um aplicativo para acelerar o funcionamento do computador</label>
+                              
             </div>
 
             <div class="botaoenviar">
@@ -31,11 +34,11 @@
 
             
 
-        </section>
+        </form>
     </main>
 
     </footer>
-    
+    <script src="index.js"></script>
 </body>
 </html>
 

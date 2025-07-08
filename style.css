@@ -2,14 +2,14 @@ body{
     background-color:#054f77;;
     align-items: center;
     padding: 0px;
-    
-    
-    
+
+
+
 }
 
 h1{
     color: aliceblue;
-    
+
 }
 
 p{
@@ -22,11 +22,11 @@ main {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    
+
 }
 
 img{
-   width: 50px;
+    width: 50px;
 }
 
 .botaodificuldade{
@@ -46,7 +46,7 @@ img{
     box-shadow: 0 0 10px black;
     padding: 120px;
     background-color: #145e87;
-      
+
 }
 
 button{
@@ -59,17 +59,38 @@ button{
     font-weight: bold;
     color: aliceblue;
     
+
 }
 
-#botao1{
-    background-color: #008000;
-    
-    
+.botaodificuldade input[type="radio"] {
+  display: none;
 }
 
-#botao2{
-    background-color: #b22222;
+.botaodificuldade label {
+  display: inline-block;
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  margin: 8px;
+  border-radius: 10px;
+  border: 2px solid black;
+  cursor: pointer;
+  width: 80%;
+  height: 80%;
+  text-align: center;
+  
+
 }
 
+#label-facil {
+  background-color: green;
+}
 
+#label-dificil {
+  background-color: red;
+}
 
+a{
+  text-decoration: none;
+  color: black;
+}

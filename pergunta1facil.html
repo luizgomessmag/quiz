@@ -10,31 +10,36 @@
     
 
     <main>
-        <section class="blocoperguntas">
+        <form id="quizForm" class="blocoperguntas">
             <h1>pergunta</h1>
             <p>Qual desses NÃO é um tipo de dado?</p>
-            <img src="/Web/QuizInformática/Quiz Lois/linux.png" alt="linux barrigudo">
+            <img src="/linux.png" alt="linux barrigudo">
             <div class="buttons">
-                <button id="alt1">Caractere</button>
-                <button id="alt1">Nome</button>
-                <button id="alt1">Inteiro</button>
-                <button id="alt1">Booleano</button>
-                
+                <input type="radio" name="alternativa" id="alt1" value="falso" required>
+        <label for="alt1">Caractere</label>
+                <input type="radio" name="alternativa" id="alt2" value="correto" required>
+        <label for="alt2">Nome</label>
+                <input type="radio" name="alternativa" id="alt3" value="falso" required>
+        <label for="alt3">Inteiro</label>
+                <input type="radio" name="alternativa" id="alt4" value="falso" required>
+        <label for="alt4">Booleano</label>
                 
             </div>
 
             <div class="botaoenviar">
 
-                <button id="enviar1">enviar</button>
+                <button type="submit" id="enviar1">enviar</button>
 
             </div>
 
             
 
-        </section>
+        </form>
     </main>
 
     </footer>
+
+    <script src="index.js"></script>
     
 </body>
 </html>

@@ -27,6 +27,7 @@ main {
     justify-content: center;
     width: 100vw;
     height: 100vh;
+    
 }
 
 
@@ -42,6 +43,7 @@ main {
     width: 60%;
     height: 80%;
     background-color: #145e87;
+    padding-bottom: 32px;
 }
 
 .buttons{
@@ -49,13 +51,14 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    
 
 }
 
-#alt1{
-    width: 230px;
-    height: 30px;
-    margin: 10px;
+#alternativa{
+    width: 240px;
+    height: 50px;
+    margin: 7px;
     border: 2px solid black;
     border-radius: 12px;
 }
@@ -71,6 +74,47 @@ main {
 .botaoenviar{
 
     padding: 20px;
+    cursor: pointer;
+    
 
 }
 
+
+
+/* ____________________________________________________________________________________________________________________________________ */
+
+
+
+.buttons input[type="radio"] {
+  display: none;
+}
+
+.buttons label {
+  display: inline-block;
+  background-color: white;
+  padding: 12px 24px;
+  margin: 6px;
+  border-radius: 12px;
+  border: 2px solid black;
+  cursor: pointer;
+  width: 60%;
+  height: 80%;
+  text-align: center;
+
+}
+
+.buttons input[type="radio"]:checked + label {
+  background-color: #0f88c3;
+  color: white;
+  border-color: #0f88c3;
+}
+
+
+
+
+
+
+/* .buttons label.correta {
+  background-color: green;
+  color: white;
+} */
