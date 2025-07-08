@@ -16,12 +16,12 @@ function handleSubmit(event) {
     if(window.location.href.includes("facil")){
         paginaAtual = window.location.href.split("facil")[0].split("pergunta")[1]
         proxima = parseInt(paginaAtual)+1
-        window.location.href = `/pergunta${proxima}facil.html`
+        window.location.href = `pergunta${proxima}facil.html`
     } else {
         //se dificil
         paginaAtual = window.location.href.split("dificil")[0].split("pergunta")[1]
         proxima = parseInt(paginaAtual)+1
-        window.location.href = `/pergunta${proxima}dificil.html`
+        window.location.href = `pergunta${proxima}dificil.html`
     }
 
         
